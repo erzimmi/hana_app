@@ -1,0 +1,5 @@
+service {
+    "UserData.User" as "Users"
+     create using
+	"xsjs:usersCreateMethod.xsjslib::usersCreate";
+}

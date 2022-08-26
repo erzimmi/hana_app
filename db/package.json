@@ -1,0 +1,10 @@
+{
+    "name": "deploy",
+    "dependencies": {
+        "@sap/hdi-deploy": "^4",
+        "@sap/cds-compiler": "latest"
+    },
+    "scripts": {
+        "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+    }
+}
